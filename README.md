@@ -1,4 +1,4 @@
-<h1 align="center">🚀 i7-Fuzzer 🚀</h1>
+<h1 align="center"> i7-Fuzzer </h1>
 The live555_fuzzer.py script is the main fuzzing tool used to test the Live555 RTSP server. 
 It works by sending both unmutated and mutated RTSP messages to the server, monitoring its responses, and analyzing code coverage to detect potential vulnerabilities.
 
