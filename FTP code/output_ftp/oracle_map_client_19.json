@@ -1,0 +1,78 @@
+[
+  [
+    "USER",
+    "331 User webadmin OK. Password required"
+  ],
+  [
+    "PASS",
+    "230 User logged in, proceed."
+  ],
+  [
+    "SYST",
+    "215 UNIX Type: L8"
+  ],
+  [
+    "FEAT",
+    "211-Extensions supported:"
+  ],
+  [
+    "EPSV",
+    "229 Entering Extended Passive Mode (|||28198|)"
+  ],
+  [
+    "LIST",
+    "150 File status okay; about to open data connection."
+  ],
+  [
+    "LIST",
+    "226 Transfer complete. Closing data connection."
+  ],
+  [
+    "TYPE",
+    "200 Type set to I."
+  ],
+  [
+    "SIZE",
+    "213 7421"
+  ],
+  [
+    "EPSV",
+    "229 Entering Extended Passive Mode (|||54883|)"
+  ],
+  [
+    "RETR",
+    "150 File status okay; about to open data connection."
+  ],
+  [
+    "RETR",
+    "226 Transfer complete. Closing data connection."
+  ],
+  [
+    "EPSV",
+    "229 Entering Extended Passive Mode (|||1066|)"
+  ],
+  [
+    "STOR",
+    "150 File status okay; about to open data connection."
+  ],
+  [
+    "STOR",
+    "226 Transfer complete. Closing data connection."
+  ],
+  [
+    "MKD",
+    "257 Directory created."
+  ],
+  [
+    "RMD",
+    "250 Requested file action okay, completed."
+  ],
+  [
+    "DELE",
+    "250 Requested file action okay, completed."
+  ],
+  [
+    "QUIT",
+    "221 Goodbye!"
+  ]
+]
