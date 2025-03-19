@@ -1,0 +1,5 @@
+PLAY rtsp://131.188.37.115:8555/test.wav/ RTSP/1.0
+CSeq: 7
+User-Agent: LibVLC/3.0.20 (LIVE555 Streaming Media v2016.11.28)
+Session: CA560E8B
+

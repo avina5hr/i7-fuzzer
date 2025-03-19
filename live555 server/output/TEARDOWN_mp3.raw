@@ -1,0 +1,5 @@
+TEARDOWN rtsp://131.188.37.115:8554/test.mp3/ RTSP/1.0
+CSeq: 12
+User-Agent: LibVLC/3.0.20 (LIVE555 Streaming Media v2016.11.28)
+Session: 0B55C345
+

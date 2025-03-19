@@ -1,0 +1,26 @@
+[
+  [
+    "OPTIONS",
+    "RTSP/1.0 200 OK"
+  ],
+  [
+    "DESCRIBE",
+    "RTSP/1.0 200 OK"
+  ],
+  [
+    "SETUP",
+    "RTSP/1.0 200 OK"
+  ],
+  [
+    "PLAY",
+    "RTSP/1.0 200 OK"
+  ],
+  [
+    "PAUSE",
+    "RTSP/1.0 200 OK"
+  ],
+  [
+    "TEARDOWN",
+    "RTSP/1.0 200 OK"
+  ]
+]

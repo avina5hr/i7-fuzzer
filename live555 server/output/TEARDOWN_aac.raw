@@ -1,0 +1,5 @@
+TEARDOWN rtsp://131.188.37.115:8554/test.aac/ RTSP/1.0
+CSeq: 6
+User-Agent: LibVLC/3.0.20 (LIVE555 Streaming Media v2016.11.28)
+Session: 9891A24C
+

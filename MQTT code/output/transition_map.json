@@ -1,0 +1,9 @@
+[
+            ["CONNECT", "CONNACK"],
+            ["SUBSCRIBE", "SUBACK"],
+            ["PUBLISH", "PUBACK"],
+            ["UNSUBSCRIBE", "UNSUBACK"],
+            ["PINGREQ", "PINGRESP"],
+            ["DISCONNECT", ""]
+        ]
+  

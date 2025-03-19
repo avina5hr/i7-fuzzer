@@ -1,0 +1,5 @@
+DESCRIBE rtsp://127.0.0.1:8888/test.mp3 RTSP/1.0
+CSeq: 3
+User-Agent: LibVLC/3.0.20 (LIVE555 Streaming Media v2016.11.28)
+Accept: application/sdp
+
