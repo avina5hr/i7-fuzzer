@@ -799,8 +799,7 @@ Open a new terminal and use Telnet to connect to the running LightFTP server:
 ```bash
 telnet 127.0.0.1 2200
 ```
-💡 **Explanation:** After connecting, you can use standard FTP commands (e.g., `USER`, `PASS`) to log in and interact with the server. The default username and password are both `ubuntu`.
-
+💡 **Explanation:** After connecting, you can use standard FTP commands (e.g., `USER`, `PASS`) to log in and interact with the server.
 ---
 
 # 📡 Mosquitto Setup and Compilation Using Clang
@@ -815,7 +814,6 @@ apt-get install libssl-dev libwebsockets-dev uuid-dev docbook-xsl docbook xsltpr
 ## 📥 Cloning the Mosquitto Repository
 Change to your working directory and clone the repository:
 ```bash
-cd $WORKDIR
 git clone https://github.com/eclipse/mosquitto.git
 ```
 💡 **Explanation:** This downloads the Mosquitto source code from the official GitHub repository.
@@ -833,7 +831,6 @@ Enable Address Sanitizer by exporting the environment variable:
 ```bash
 export AFL_USE_ASAN=1
 ```
-💡 **Explanation:** This variable signals the build system to utilize ASAN, which helps detect memory-related errors.
 
 ## 🔨 Compiling Mosquitto Using Clang
 Set the compiler and flags to use Clang with Address Sanitizer:
@@ -843,5 +840,4 @@ LDFLAGS="-g -O0 -fsanitize=address -fsanitize-coverage=edge,trace-pc-guard -fno-
 CXX=clang++ \
 make clean all WITH_TLS=no WITH_TLS_PSK=no WITH_STATIC_LIBRARIES=yes WITH_DOCS=no WITH_CJSON=no WITH_EPOLL=no
 ```
-💡 **Explanation:** This ensures Mosquitto is built with security features and debugging enabled.
 
